@@ -3,6 +3,8 @@ import java.awt.event.ActionListener;
 //github提交测试
 import javax.swing.JButton;
 
+//再次测试
+
 public class Lambda {
 			public static void main(String[] args) {
 				// Java 8 之前：
@@ -27,7 +29,6 @@ public class Lambda {
 				show.addActionListener((e) -> {
 				System.out.println("Light, Camera, Action !! Lambda expressions Rocks");
 				});
-				
 			}
 			
 			
