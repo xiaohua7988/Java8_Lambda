@@ -25,7 +25,7 @@ public class Lambda {
 				System.out.println("Event handling without lambda expression is boring");
 				}
 				});
-				// Java 8 方式：
+				// Java 8 方式(对比)：
 				show.addActionListener((e) -> {
 				System.out.println("Light, Camera, Action !! Lambda expressions Rocks");
 				});
