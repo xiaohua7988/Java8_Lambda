@@ -3,7 +3,7 @@ import java.awt.event.ActionListener;
 //github提交测试
 import javax.swing.JButton;
 
-//再次测试
+//再次git测试
 public class Lambda {
 			public static void main(String[] args) {
 				// Java 8 之前：
