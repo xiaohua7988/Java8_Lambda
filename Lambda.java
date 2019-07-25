@@ -4,7 +4,6 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 
 //再次测试
-
 public class Lambda {
 			public static void main(String[] args) {
 				// Java 8 之前：
@@ -25,7 +24,7 @@ public class Lambda {
 				System.out.println("Event handling without lambda expression is boring");
 				}
 				});
-				// Java 8 方式：
+				// Java 8 方式(对比)：
 				show.addActionListener((e) -> {
 				System.out.println("Light, Camera, Action !! Lambda expressions Rocks");
 				});
